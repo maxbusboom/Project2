@@ -1,0 +1,30 @@
+.DS_Store
+.cmake
+.ninja_deps
+.ninja_log
+build.ninja
+
+
+Testing
+artifacts/
+*.swp
+*.swo
+tags
+compile_commands.json
+
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+
+build/*
+! build/.keep
+bin/*
+! bin/.keep
+
+
+test/CTestTestfile.cmake
+test/*.cmake
+test/Testing
+
+DartConfiguration.tcl
